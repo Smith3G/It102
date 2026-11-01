@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Food Order Form</h1>
+    <p>Please complete the form below to place your food order.</p>
+
+    <form action="#" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"
+               minlength="2" maxlength="30" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"
+               minlength="2" maxlength="30" required>
+
+        <label for="food">Food Preference:</label>
+        <select id="food" name="food">
+            <option value="chicken">Chicken</option>
+            <option value="beef">Beef</option>
+            <option value="fish">Fish</option>
+        </select>
+
+        <label for="allergies">Allergy Information:</label>
+        <textarea id="allergies" name="allergies" rows="4"></textarea>
+
+        <button type="submit">Submit Order</button>
+    </form>
+
+    <p>Find more recipes at <a href="https://www.foodnetwork.com">Food Network</a>.</p>
+</body>
+</html>
